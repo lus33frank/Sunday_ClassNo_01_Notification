@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tw.com.frankchang.houli.sunday_classno_01_notification.MainActivity"
+    android:orientation="vertical"
+    android:padding="@dimen/xml_padding">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xml_Basic"
+        android:textSize="@dimen/xml_TextSize"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom"
+        android:onClick="basicOnClick"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xml_Time"
+        android:textSize="@dimen/xml_TextSize"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom"
+        android:onClick="timeOnClick"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xml_sound"
+        android:textSize="@dimen/xml_TextSize"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom"
+        android:onClick="soundOnClick"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xml_shock"
+        android:textSize="@dimen/xml_TextSize"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom"
+        android:onClick="shockOnClick"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xml_Priority"
+        android:textSize="@dimen/xml_TextSize"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom"
+        android:onClick="priorityOnClick"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xml_Images"
+        android:textSize="@dimen/xml_TextSize"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom"
+        android:onClick="imagesOnClick"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xml_Text"
+        android:textSize="@dimen/xml_TextSize"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom"
+        android:onClick="textOnClick"/>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xml_CallAPP"
+        android:textSize="@dimen/xml_TextSize"
+        android:layout_marginBottom="@dimen/xml_layout_marginBottom"
+        android:onClick="callAPPOnClick"/>
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xml_Button"
+        android:textSize="@dimen/xml_TextSize"
+        android:onClick="buttonOnClick"/>
+</LinearLayout>
